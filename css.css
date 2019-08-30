@@ -4,7 +4,7 @@ html {
 
 .sideNav {
 	overflow-x: hidden;
-	height: 200px;
+	height: 150px;
 	width:130px;
 	position: fixed;
 	z-index: 1;
