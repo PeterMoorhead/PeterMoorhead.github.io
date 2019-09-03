@@ -43,7 +43,7 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 600px;
+	height: 90vh;
 	background-color:EEEEEE;
 }
 
@@ -51,7 +51,7 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 600px;
+	height: 90vh;
 	background-color:white;
 }
 
@@ -59,7 +59,7 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 600px;
+	height: 90vh;
 	background-color:EEEEEE;
 }
 
@@ -67,7 +67,7 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 600px;
+	height: 90vh;
 	background-color:white;
 }
 
