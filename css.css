@@ -55,6 +55,25 @@ html {
 	height: 100vh;
 	width: 100%;
 	background-color:white;
+	position: relative;
+}
+
+#russianTitle {
+	top: 150px;
+	left: 200px;
+	position: absolute;
+}
+
+#russianPic {
+	padding-top:50px;
+}
+
+#russianContent {
+	font-family: "Arial";
+	font-size: 20px;
+	width: 500px;
+	left: 580px;
+	position: absolute;
 }
 
 #connectFour {
@@ -81,9 +100,8 @@ html {
 	font-family: "Arial";
 	font-size: 20px;
 	width: 500px;
-	left: 600px;
-	float: right;
-	position: relative;
+	left: 500px;
+	position: absolute;
 }
 
 #resume {
