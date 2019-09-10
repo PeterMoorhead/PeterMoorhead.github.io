@@ -8,7 +8,7 @@ html {
 	width:130px;
 	position: fixed;
 	z-index: 1;
-	top: 25%;
+	top: 30%;
 	left: 0;
 	padding-top: 20px;
 }
@@ -43,7 +43,8 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 90vh;
+	height: 100vh;
+	width: 100%;
 	background-color:EEEEEE;
 }
 
@@ -51,23 +52,46 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 90vh;
+	height: 100vh;
+	width: 100%;
 	background-color:white;
 }
 
-#alanPi {
+#connectFour {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 90vh;
+	height: 100vh;
+	width: 100%;
 	background-color:EEEEEE;
+	position: relative;
+}
+
+#connectTitle {
+	top: 150px;
+	left: 200px;
+	position: absolute;
+}
+
+#connectPic {
+	padding-top:50px;
+}
+
+#connectContent {
+	font-family: "Arial";
+	font-size: 20px;
+	width: 500px;
+	left: 600px;
+	float: right;
+	position: relative;
 }
 
 #resume {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 90vh;
+	height: 100vh;
+	width: 100%;
 	background-color:white;
 }
 
@@ -76,10 +100,12 @@ html {
 	align-items: center;
 	justify-content: center;
 	height: 200px;
+	width: 100%;
 	background-color:EEEEEE;
 }
 
 body {
+	padding:0;
 	background-color: #EEEEEE;
 }
 
