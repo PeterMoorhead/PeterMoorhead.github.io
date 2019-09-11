@@ -39,6 +39,10 @@ html {
 	background-color:EEEEEE;
 }
 
+#title {
+	padding-top: 20%;
+}
+
 #home {
 	display: flex;
 	align-items: center;
@@ -54,7 +58,7 @@ html {
 	justify-content: center;
 	height: 100vh;
 	width: 100%;
-	background-color:white;
+	background-color:EEEEEE;
 	position: relative;
 }
 
@@ -82,7 +86,7 @@ html {
 	justify-content: center;
 	height: 100vh;
 	width: 100%;
-	background-color:EEEEEE;
+	background-color:white;
 	position: relative;
 }
 
@@ -110,7 +114,7 @@ html {
 	justify-content: center;
 	height: 100vh;
 	width: 100%;
-	background-color:white;
+	background-color:EEEEEE;
 }
 
 #about {
@@ -119,7 +123,7 @@ html {
 	justify-content: center;
 	height: 200px;
 	width: 100%;
-	background-color:EEEEEE;
+	background-color:white;
 }
 
 body {
