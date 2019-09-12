@@ -1,10 +1,10 @@
 html {
 	scroll-behavior: smooth;
-	overflow:hidden;
+	overflow:auto;
 }
 
 .sideNav {
-	overflow-x: hidden;
+	overflow-x: auto;
 	height: 200px;
 	width:130px;
 	position: fixed;
@@ -12,7 +12,7 @@ html {
 	top: 30%;
 	left: 0;
 	padding-top: 20px;
-	overflow:hidden;
+	overflow:auto;
 }
 
 .sideNav a {
@@ -24,43 +24,44 @@ html {
 	font-size: 17px;
 	color: #818181;
 	display: block;
-	overflow:hidden;
+	overflow:auto;
 }
 
 .sideNav a:hover{
 	background-color: #e6e6e6;
 	color: black;
-	overflow:hidden;
+	overflow:auto;
 }
 
 .sideNav a:active {
 	background-color: #blue;
 	color: white;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #header {
 	height: 500px;
 	background-color:white;
 	padding: 20px;
+	height:100vh;
 	position: relative;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #heading {
 	font-size: 70px;
 	font-family: "Arial";
-	overflow:hidden;
+	overflow:auto;
 }
 
 #subheader {
 	font-family: "Arial";
-	overflow:hidden;
+	overflow:auto;
 }
 
 #title {
 	padding-top: -20%;
-	overflow:hidden;
+	overflow:auto;
 }
 
 /*#home {
@@ -80,19 +81,19 @@ html {
 	width: 100%;
 	background-color:EEEEEE;
 	position: relative;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #russianTitle {
 	top: 150px;
 	left: 200px;
 	position: absolute;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #russianPic {
 	padding-top:50px;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #russianContent {
@@ -101,7 +102,7 @@ html {
 	width: 500px;
 	left: 580px;
 	position: absolute;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #connectFour {
@@ -112,19 +113,19 @@ html {
 	width: 100%;
 	background-color:white;
 	position: relative;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #connectTitle {
 	top: 150px;
 	left: 200px;
 	position: absolute;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #connectPic {
 	padding-top:50px;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #connectContent {
@@ -133,7 +134,7 @@ html {
 	width: 500px;
 	left: 500px;
 	position: absolute;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #resume {
@@ -143,7 +144,7 @@ html {
 	height: 75vh;
 	width: 100%;
 	background-color:EEEEEE;
-	overflow:hidden;
+	overflow:auto;
 }
 
 #about {
@@ -153,17 +154,17 @@ html {
 	height: 150px;
 	width: 100%;
 	background-color:white;
-	overflow:hidden;
+	overflow:auto;
 }
 
 body {
 	padding:0;
 	background-color: #EEEEEE;
-	overflow:hidden;
+	overflow:auto;
 }
 
 h1 {
 	color: #333;
 	text-align: center;
-	overflow:hidden;
+	overflow:auto;
 }
